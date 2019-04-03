@@ -12,3 +12,11 @@
 .table-hover tr:hover{
     color: gray; 
 }
+
+.jumbotron{
+    background-image: url
+    ("https://github.com/arceosop000/aboutme/blob/master/chow.jpg?raw=true"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-y: -325px; 
+}

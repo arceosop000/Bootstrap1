@@ -11,8 +11,10 @@
         <link rel="stylesheet" type="text/css" href="bootstrap1.css"> 
     </head> 
     <body>
-        <h1 class="display-1">Bootstrap Tutorial</h1> 
-        <h3 class="text-uppercase">Typography, Tables and Images</h3> 
+        <div class="jumbotron">
+            <h1 class="display-1">Bootstrap Tutorial</h1> 
+            <h3 class="text-uppercase">Typography, Tables and Images</h3>
+        </div> 
         <h5 class="font-italic">Be sure to include the Bootstrap links in the head tags.</h5> 
         <h2 class="display-4">Typography</h2> 
         <p class="lead">Typography deals with how the text is formatted. After we add the bootstrap links, you will see a 
@@ -53,14 +55,22 @@
         <p>Bootstrap allows for different formatting of images, including rounded corners, thumbnails and alignments</p>
         <table>
             <tr>
-                <td><img class="rounded" width=33% height=auto 
+                <td><img class="rounded" width=100% height=auto 
                 src="https://github.com/arceosop000/aboutme/blob/master/chow.jpg?raw=true"></td>
-                <td><img class="rounded-circle" width=33% height=auto 
+                <td><img class="rounded-circle" width=100% height=auto 
                 src="https://github.com/arceosop000/aboutme/blob/master/chow.jpg?raw=true"></td>
-                <td><img class="img-thumbnail" width=33% height=auto 
+                <td><img class="img-thumbnail" width=100% height=auto 
                 src="https://github.com/arceosop000/aboutme/blob/master/chow.jpg?raw=true"></td>
-
             </tr>
         </table>
+        <p>We can also move images to the left or right using <kbd>float-left</kbd> and <kbd>float-right</kbd> classes.</p> 
+        <img class="rounded-circle float-left" width="100%" height="auto" 
+        src="https://github.com/arceosop000/aboutme/blob/master/chow.jpg?raw=true"
+        /><p>This is some text around the image</p> 
+
+        <h2 class="display-3">JUMBOTRON</h2>
+        <p>Jumbotron is a class which accents text by adding a large background and centering the text. For an example, 
+        see the header of this page.</p>
+        <p>The colors of the Jumbotron can be changed via the .css page using background-color.</p>
     </body>
 </html>
